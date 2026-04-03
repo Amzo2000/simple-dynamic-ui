@@ -1,80 +1,37 @@
-# **Code Challenge — Simplifying Dynamic Data for no-code tools**
+# FlowBind – Code Challenge Submission
 
-**Version 1 - March 2026**
+## 🚀 My Solution
+I built a simple interface that allows non-technical users to bind dynamic data without using code-like syntax.
 
-## **Context**
+Instead of {{input.value}}, users can:
+- Select elements visually
+- Choose data from a dropdown
+- See instant updates
 
-Non-technical users struggle with concepts like `{{input.value}}` but have a strong desire to create dynamic apps.
+## 🧠 Approach
+My goal was to simplify the mental model:
+- No code syntax
+- Visual linking between elements
+- Clear feedback for users
 
-An example of a low-code version is [retool](https://retool.com/) which uses `{{}}` that works great for technical users but becomes difficult for non-technical users.
+## 🎯 Features
+- Display dynamic input (name → text)
+- Conditional visibility (show/hide)
+- Combine values (list of names)
 
-Your goal is to design a **simpler, more intuitive way** to work with dynamic data in a UI.
+## 👤 How a non-technical user would use it
+1. Type a name in input
+2. Select where to display it
+3. The UI updates automatically
 
-If you're not familiar with low-code tools you can signup for retool and try to drag and drop an input and a text component to bind the input value to the text
-
-## **Challenge**
-
-Create a small prototype that allows a non-technical user to:
-
-1. Display dynamic data (e.g. show a name entered in an input)
-
-2. Perform at least **2 additional actions**, such as:
-   - Conditional logic (e.g. show/hide based on input)
-
-   - Combining values (e.g. full name)
-
-   - Transformations (e.g. uppercase, formatting)
-
-⚠️ Constraint:
-
-- Do **not** use syntax like `{{ }}` or anything code-like in the UX
-
----
-
-## **Provided UI**
-
-- Text element
-
-- Example input fields: Name & age
-
-You can change this if needed, but keep it simple.
+## 💡 Why it's better
+- No confusing syntax like {{ }}
+- Fully visual
+- Easy to understand
 
 ---
 
-## **Deliverables**
-
-- Working prototype (rough is fine)
-
-- 5–10 min Loom (or short write-up) explaining:
-  - Your approach
-
-  - How a non-technical user would use it
-
-  - Why it’s better than traditional approaches
+## 📹 Loom Video
+https://www.loom.com/share/fa4955c04da04ae5adab0a979144904e
 
 ---
-
-## **What we care about**
-
-- Your **thinking**, not polish
-
-- Simplicity over complexity
-
-- Clear mental model 
-
-**Delivery**
-
-When you are finished, send an invite to your github, bitbucket or gitlab repository to: ismail-doitbig
-
-Include a loom with your thought process.
-
-**You will be judged on:**
-
-- 7 points: Thought process and coming up with a solution
-- 3 points: The ease of use for the solution
-
-Max reachable score 10/10 points
-
-Besides the above points your app will be compared against other developer submissions.
-
-Goodluck!
